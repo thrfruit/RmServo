@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\servo.dir/objects.a
+U:\mingw64\bin\ar.exe cr CMakeFiles\servo.dir/objects.a @CMakeFiles\servo.dir\objects1.rsp
+g++ -g   -Wl,--whole-archive CMakeFiles\servo.dir/objects.a -Wl,--no-whole-archive  -o servo.exe -Wl,--out-implib,libservo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\servo.dir\linklibs.rsp
